@@ -4,7 +4,7 @@ _Reproducibility Package (Springer Discover Internet of Things, 2025 Revision)_
 This repository contains the reproducibility materials for the paper:
 
 > **AI-Driven Cloud Security Framework for SME Healthcare**  
-> Authors: Yuanyuan Liu, Joel [Surname], Harrison [Surname], Weijun (Nick) Ma  
+> Authors: Yuanyuan Liu, Joel Cofman, Harrison Bai, Weijun (Nick) Ma  
 > Journal: *Springer Discover Internet of Things* (2025, in revision)
 
 The repository provides code, sample data, figures, documentation, and environment configuration required to verify and reproduce the experiments described in the manuscript.
