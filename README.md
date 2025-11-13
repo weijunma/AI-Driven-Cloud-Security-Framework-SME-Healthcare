@@ -9,6 +9,14 @@ This repository contains the reproducibility materials for the paper:
 
 The repository provides code, sample data, figures, documentation, and environment configuration required to verify and reproduce the experiments described in the manuscript.
 
+## Overview
+This repository provides the reproducibility package for the AI-driven cloud security framework.  
+The framework integrates:
+- **Microsoft Defender for Cloud** and **Microsoft Sentinel** for security event detection and aggregation,  
+- **Azure Machine Learning** for risk classification and explainable AI analysis,  
+- **Power Automate** for automated incident response, and  
+- **Streamlit Dashboard** for visualization and user oversight.
+
 ---
 
 ## 📁 Repository Structure
@@ -51,3 +59,64 @@ The repository provides code, sample data, figures, documentation, and environme
     ├── AI_Cloud_Security_Dashboard.md
     ├── AI_Cloud_Security_Lab_Experiment_Package.zip
     └── Automating_SIEM_Event_Management_with_Exp.pdf
+
+---
+
+## **Reproducibility Checklist:**
+- Python 3.8 + Scikit-learn 1.2
+- Tested on Windows 10 / Ubuntu 20.04
+- Dataset: Synthetic subset for reproducibility
+
+---
+
+## **Reproducibility Checklist**
+| Component | Description |
+|------------|-------------|
+| Python Version | 3.8 |
+| Required Libraries | Scikit-learn 1.2.0, Streamlit 1.5.0, Plotly 5.5.0 |
+| Environment | Windows 10 / Ubuntu 20.04 |
+| Dataset | Synthetic subset (anonymized attack & normal logs) |
+| Model | Random Forest Classifier, XGBoost |
+| Evaluation | Accuracy, Precision, Recall, F1-score |
+| Response Time | ~300ms average |
+| False Alarm Rate | 5.4% |
+
+---
+
+## **Quick Start**
+```bash
+# Clone the repository
+git clone https://github.com/weijunma/AICloudSecurityFramework.git
+cd AICloudSecurityFramework
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run demo
+streamlit run notebook_demo/experiment_demo.ipynb
+
+# Citation
+
+If you use this package, please cite:
+@article{liu2025ai_cloud_security,
+  title={An Adaptive, AI-Driven Cloud Security Framework Automating SIEM Event Management with Explainable AI},
+  author={Liu, Yuanyuan and Bai, Harrison and Coffman, Joel and Ma, Weijun},
+  journal={Discover Internet of Things},
+  year={2025},
+  publisher={Springer Nature}
+}
+
+---
+
+## License
+
+This repository is distributed under the MIT License.
+See LICENSE
+ for details.
+
+# Contact
+
+For questions or support, please contact:
+Weijun Ma
+Email: weijun.ma@ieee.org
+
