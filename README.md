@@ -96,7 +96,7 @@ The framework integrates:
 
 ```bash
 # Clone the repository
-git clone https://github.com/weijunma/AICloudSecurityFramework.git
+git clone https://github.com/weijunma/AI-Driven-Cloud-Security-Framework-SME-Healthcare
 cd AICloudSecurityFramework
 
 # Install dependencies
