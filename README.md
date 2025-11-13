@@ -4,18 +4,22 @@ _Reproducibility Package (Springer Discover Internet of Things, 2025 Revision)_
 This repository contains the reproducibility materials for the paper:
 
 > **AI-Driven Cloud Security Framework for SME Healthcare**  
-> Authors: Yuanyuan Liu, Joel Cofman, Harrison Bai, Weijun (Nick) Ma  
+> Authors: Yuanyuan Liu, Joel Coffman, Harrison Bai, Weijun (Nick) Ma  
 > Journal: *Springer Discover Internet of Things* (2025, in revision)
 
 The repository provides code, sample data, figures, documentation, and environment configuration required to verify and reproduce the experiments described in the manuscript.
 
-## Overview
+---
+
+## 📌 Overview
+
 This repository provides the reproducibility package for the AI-driven cloud security framework.  
 The framework integrates:
-- **Microsoft Defender for Cloud** and **Microsoft Sentinel** for security event detection and aggregation,  
-- **Azure Machine Learning** for risk classification and explainable AI analysis,  
-- **Power Automate** for automated incident response, and  
-- **Streamlit Dashboard** for visualization and user oversight.
+
+- **Microsoft Defender for Cloud** and **Microsoft Sentinel** for security event detection and aggregation  
+- **Azure Machine Learning** for risk classification and explainable AI  
+- **Power Automate** for automated incident response  
+- **Streamlit Dashboard** for visualization and user oversight
 
 ---
 
@@ -23,21 +27,21 @@ The framework integrates:
 
 ```text
 .
-├── README.md                     # Project overview (this file)
-├── LICENSE                       # MIT license
-├── environment.yml               # Conda environment configuration
-├── requirements.txt              # Python dependencies
+├── README.md                     
+├── LICENSE                       
+├── environment.yml               
+├── requirements.txt              
 │
-├── src/                          # Source code and scripts
+├── src/                          
 │   ├── ai_intrusion_dashboard_refined.py
 │   └── (additional scripts)
 │
-├── data/                         # Sample datasets (non-sensitive)
+├── data/                         
 │   ├── attack_log_dataset.csv
 │   └── README.md
 │
 ├── results/
-│   ├── figures/                  # All generated figures and plots
+│   ├── figures/                  
 │   │   ├── Fig1_ai_workflow_diagram.png
 │   │   ├── Fig2_experiment_environment_structure.png
 │   │   ├── Fig3_system_architecture_diagram.png
@@ -53,37 +57,43 @@ The framework integrates:
 │   │   └── (other figures)
 │   └── README.md
 │
-└── docs/                         # Supplementary documents and artifacts
+└── docs/                         
     ├── AI_Cloud_Security_Lab_Manual.docx
     ├── AI_Cloud_Security_Environment_Setup.docx
     ├── AI_Cloud_Security_Dashboard.md
     ├── AI_Cloud_Security_Lab_Experiment_Package.zip
     └── Automating_SIEM_Event_Management_with_Exp.pdf
+```
 
 ---
 
-## **Reproducibility Checklist:**
-- Python 3.8 + Scikit-learn 1.2
-- Tested on Windows 10 / Ubuntu 20.04
-- Dataset: Synthetic subset for reproducibility
+## 🧪 Reproducibility Checklist
+
+### **Environment Summary**
+- Python **3.8**
+- Scikit-learn **1.2**
+- Tested on **Windows 10** / **Ubuntu 20.04**
+- Dataset: **Synthetic subset** for reproducibility
 
 ---
 
-## **Reproducibility Checklist**
+### **Detailed Checklist**
+
 | Component | Description |
-|------------|-------------|
+|----------|-------------|
 | Python Version | 3.8 |
 | Required Libraries | Scikit-learn 1.2.0, Streamlit 1.5.0, Plotly 5.5.0 |
 | Environment | Windows 10 / Ubuntu 20.04 |
 | Dataset | Synthetic subset (anonymized attack & normal logs) |
-| Model | Random Forest Classifier, XGBoost |
+| Models | Random Forest Classifier, XGBoost |
 | Evaluation | Accuracy, Precision, Recall, F1-score |
 | Response Time | ~300ms average |
 | False Alarm Rate | 5.4% |
 
 ---
 
-## **Quick Start**
+## 🚀 Quick Start
+
 ```bash
 # Clone the repository
 git clone https://github.com/weijunma/AICloudSecurityFramework.git
@@ -94,10 +104,15 @@ pip install -r requirements.txt
 
 # Run demo
 streamlit run notebook_demo/experiment_demo.ipynb
+```
 
-# Citation
+---
+
+## 📚 Citation
 
 If you use this package, please cite:
+
+```bibtex
 @article{liu2025ai_cloud_security,
   title={An Adaptive, AI-Driven Cloud Security Framework Automating SIEM Event Management with Explainable AI},
   author={Liu, Yuanyuan and Bai, Harrison and Coffman, Joel and Ma, Weijun},
@@ -105,18 +120,18 @@ If you use this package, please cite:
   year={2025},
   publisher={Springer Nature}
 }
+```
 
 ---
 
-## License
+## 📄 License
+This repository is distributed under the MIT License.  
+See `LICENSE` for details.
 
-This repository is distributed under the MIT License.
-See LICENSE
- for details.
+---
 
-# Contact
+## 📬 Contact
+For questions or support:
 
-For questions or support, please contact:
-Weijun Ma
-Email: weijun.ma@ieee.org
-
+**Weijun Ma**  
+📧 weijun.ma@ieee.org
