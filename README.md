@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17605067.svg)](https://doi.org/10.5281/zenodo.17605067)
+
+
 # AI-Driven Cloud Security Framework for SME Healthcare  
 _Reproducibility Package (Springer Discover Internet of Things, 2025 Revision)_
 
